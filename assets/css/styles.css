@@ -1461,3 +1461,12 @@ h4.text-divider.text-center {
   'GRAD' 0,
   'opsz' 48
 }
+
+.hero-img {
+  opacity: 0.5;
+  margin-left: 1.5rem;
+}
+
+.hero-img:hover {
+  opacity: 1.0;
+}
