@@ -1505,3 +1505,11 @@ h4.text-divider.text-center {
 .nav_bar {
   display: flex;
 }
+.header_nav {
+  padding: 1rem 0 0 0 !important;
+}
+.marquee_date {
+  margin: 1rem 0 0 0;
+  background-color: rgb(255 196 81 / 47%);
+  color: white;
+}
