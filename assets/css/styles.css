@@ -8,7 +8,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
+.marquee_date {
+  margin: 1rem 0 0 0;
+  background-color: rgba(255, 99, 71, 0.644);
+  color: white;
+}
 #particles-js {
   position: fixed;
   width: 100%;
@@ -149,13 +153,11 @@ h6 {
   text-transform: uppercase;
 }
 .dude {
-  height: 1.5rem;
+  height: 1.7rem;
   width: auto;
-  transition: all cubic-bezier(0.99, 0.57, 0, 1.52) 250ms;
+  /* transition: all cubic-bezier(0.99, 0.57, 0, 1.52) 250ms; */
 }
-.dude:hover {
-  transform: scale(1.1);
-}
+
 
 #header .logo a svg {
   transition: all ease-in-out 250ms;
