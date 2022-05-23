@@ -1513,3 +1513,11 @@ h4.text-divider.text-center {
 .nav_bar {
   display: flex;
 }
+
+
+
+@media screen and (max-width:760px) {
+  .ish_row{
+    margin:3rem 0 0 0;
+  }
+}
