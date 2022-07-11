@@ -1521,3 +1521,34 @@ h4.text-divider.text-center {
     margin:3rem 0 0 0;
   }
 }
+
+/* Speaker tab */
+.content_conatiner {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+  padding: 2rem 1rem;
+  flex-wrap: wrap;
+}
+.content_1 {
+  flex: 1 1 30%;
+  min-width: 25ch;
+  height: auto;
+  object-fit: cover;
+  border-radius: 11px;
+}
+
+.content_2 {
+  flex: 1 1 60%;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+.content_2 > h1 {
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 721px) {
+  .content_1 {
+    width: 100%;
+  }
+}
